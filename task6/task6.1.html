@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Instagram</title>
+    <style>
+        body{
+            font-family: "Segoe UI";
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        main{
+            width: 400px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            border-style: solid;
+            border-color: rgb(219, 219, 219);
+            border-radius: 3px;
+        }
+        img{
+           margin-top: 20px;
+            width: 175px;
+            height: 55px;
+        }
+        form{
+            margin: 20px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .field{
+            margin: 5px;
+            padding: 5px;
+            height: 30px;
+            width: 350px;
+            background-color: rgb(250, 250, 250);
+            border-radius: 3px;
+            border-style: solid;
+            border-color: rgb(219, 219, 219);
+        }
+        #submit{
+            margin: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            height: 30px;
+            width: 360px;
+            border: none;
+            border-radius: 3px;
+            background-color: rgb(0, 149, 246);
+            color: white;
+        }
+        h2{
+            color: rgb(115, 115, 115);
+            font-size: 13px;
+        }
+        a{
+            text-decoration: none;
+            font-size: 14px;
+            margin: 20px;
+            color: rgb(56, 81, 133);
+        }
+        .small{
+            font-size: 12px;
+        }
+        div{
+            display: flex;
+            margin-top: 20px;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            font-size: 14px;
+            width: 400px;
+            border-style: solid;
+            border-color: rgb(219, 219, 219);
+            border-radius: 3px;
+        }
+        div a{
+            font-size: 14px;
+            color: rgb(0, 149, 246);
+        }
+        #facebookicon{
+            border: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+        }
+        svg{
+            margin: 0;
+        }
+        #facebookicon a{
+            color: #0E356C;
+            margin: 0;
+        }
+
+
+    </style>
+</head>
+<body>
+<main>
+<img alt="photo" src="Instagram_logo.svg.png">
+<form>
+    <input type="text" class="field" name="userName" placeholder="Номер телефону, ім'я користувача, або email" required>
+    <input type="password" class="field" name="password" placeholder="Пароль" required>
+    <input type="submit" value="Увійти" id="submit">
+    <h2>АБО</h2>
+<div id="facebookicon"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                            width="30" height="30"
+                            viewBox="0,0,256,256"
+                            style="fill:#000000;">
+    <g fill="#0e356c" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(8.53333,8.53333)"><path d="M24,4h-18c-1.105,0 -2,0.895 -2,2v18c0,1.105 0.895,2 2,2h10v-9h-3v-3h3v-1.611c0,-3.05 1.486,-4.389 4.021,-4.389c1.214,0 1.856,0.09 2.16,0.131v2.869h-1.729c-1.076,0 -1.452,0.568 -1.452,1.718v1.282h3.154l-0.428,3h-2.726v9h5c1.105,0 2,-0.895 2,-2v-18c0,-1.105 -0.896,-2 -2,-2z"></path></g></g>
+</svg><a href="#"> <b>Увійти через Facebook</b></a></div>
+    <a href="#" class="small">Забули пароль?</a>
+
+</form>
+</main>
+<div>
+    <p>Не маєте облікового запису?<a href="#" class="solo"><b>Зареєструйтеся</b></a></p>
+</div>
+
+</body>
+</html>

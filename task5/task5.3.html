@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>transitions</title>
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+        body{
+            margin: 0;
+        }
+        #pink{
+            background-color: palevioletred;
+        }
+        #blue{
+            background-color: cornflowerblue;
+        }
+        #purple{
+            background-color: mediumpurple;
+        }
+        div{
+            width: 100vw;
+            height: 80vh;
+            color: white;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+<div id="pink">
+    <h1>Pink</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>Culpa illo illum impedit molestiae mollitia nulla officiis, ratione tempora ullam voluptate! Deserunt ea eos incidunt libero magnam nam quia quis repellat.</p>
+<a href="#blue">
+    &#9660</a>
+</div>
+<div id="blue">
+    <a href="#pink">&#9650</a>
+    <h1>Blue</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>Asperiores aspernatur aut eligendi, est incidunt quae velit voluptates? Alias corporis eius, eveniet hic ipsa quis repellat sunt totam unde ut! Sed.</p>
+    <a href="#purple">&#9660</a>
+</div>
+<div id="purple">
+    <a href="#blue">&#9650</a>
+    <h1>Purple</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>Assumenda blanditiis, culpa dolore dolorem doloribus eum illum modi quasi quia quibusdam reprehenderit totam, velit. Ducimus eos necessitatibus, perspiciatis quaerat quia sint.</p>
+<a href="#pink">Go back</a>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Анкета</title>
+    <style>
+        body{
+            width: 100%;
+            background-color: #ECBCBC;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        h1{
+            font-family: "Segoe UI";
+            color: cornsilk;
+        }
+        form{
+            width: 500px;
+            height: 500px;
+            background-color: cornsilk;
+            border-radius: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 10px;
+        }
+        .gender{
+            height: 10vh;
+            margin: 10px;
+            color: lightcoral;
+        }
+        label{
+            color: lightcoral;
+        }
+        .field{
+            height: 30px;
+            width: 300px;
+            margin: 10px;
+            border-style: solid;
+            border-radius: 5px;
+            border-color: white;
+        }
+        .service{
+            color: lightcoral;
+            width: 450px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: inherit;
+            margin-bottom: 0;
+        }
+        .buttons{
+            width: 450px;
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            margin: 50px 0;
+        }
+        button{
+            width: 150px;
+            margin: 0 20px;
+            height: 35px;
+            border-style: solid;
+            border-radius: 10px;
+            background-color: #ECBCBC;
+            border-color: white;
+            color: cornsilk;
+            transition: 1s;
+        }
+        button:hover{
+            border-radius: 30px;
+            transition: 1s;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<h1>Заповніть поля анкети</h1>
+<form>
+    <label><b>Ваше ім'я</b> <input type="text" class="field" name="name" required></label>
+    <label><b>Ваше прізвище</b> <input type="text" class="field" name="name" required></label>
+    <div class="gender">
+        <b>Ваша стать:</b>
+        <label><input type="radio" name="gender" value="female"> Жіноча</label>
+        <label><input type="radio" name="gender" value="male"> Чоловіча</label>
+    </div>
+    <div class="service"><b>Послугами якої сотової компанії Ви користуєтеся:</b><br>
+        <div class="checkboxes>"><label><input type="checkbox" name="checkbox">KyivStar</label>
+        <label><input type="checkbox" name="checkbox">MTS</label>
+        <label><input type="checkbox" name="checkbox">Life:)</label>
+        <label><input type="checkbox" name="checkbox">PeopleNet</label>
+        <label><input type="checkbox" name="checkbox">Utel</label></div>
+    </div>
+    <div class="buttons">
+        <button type="submit">Надіслати анкету</button>
+        <button type="reset">Очистити бланк</button>
+    </div>
+</form>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Reg</title>
+  <style>
+    body{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    form{
+        width: 500px;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 10px;
+    }
+    .name{
+        width: 450px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 5px;
+    }
+    .first{
+        width: 30vw;
+        height: 30px;
+        margin-right: 5px;
+        padding: 0 5px;
+        color: #989595;
+    }
+    .last{
+        width: 70vw;
+        height: 30px;
+        padding: 0 5px;
+        color: #989595;
+    }
+    .field{
+        width: 440px;
+        height: 30px;
+        padding: 0 5px;
+        margin: 10px;
+        color: #989595
+    }
+    .joinnow{
+        font-family: "Segoe UI";
+        font-size: 15px;
+        width: 440px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: #989595;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    .button{
+        width: 450px;
+        height: 35px;
+        font-size: 16px;
+        background-color: yellow;
+        border-style: solid;
+        border-color: goldenrod;
+        border-radius: 3px;
+    }
+    .button:hover{
+        cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+<form>
+<div class="name">
+  <input type="text" class="first" name="first name" placeholder="First name" required>
+  <input type="text" class="last" name="last name" placeholder="Last name" required>
+</div>
+  <input type="email" class="field" name="email" placeholder="Email address" required>
+  <input type="password" class="field" name="password" placeholder="Password (6 or more characters)" required>
+  <div class="joinnow"><p>By clicking Join Now, you agree to LinkedIn's <a href="#">User agreements</a>, <a href="#">Privacy Policy</a> and <a href="#">Cookie Policy</a> </p>
+  <input type="submit" class="button" value="Join Now"></div>
+</form>
+</body>
+</html>
