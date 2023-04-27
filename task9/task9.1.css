@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+
+}
+.a{
+    height: 33.33333vh;
+    width: 100vw;
+    background-color: coral;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    border: 2px solid white;
+}
+.b{
+    height: 33.33333vh;
+    width: 75vw;
+    background-color: cadetblue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    border: 2px solid white;
+}
+.container{
+    height: 33.33333vh;
+    width: 75vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c, .d, .e{
+    width: 25vw;
+    height: 33.33333vh;
+    background-color: darkseagreen;
+    color: white;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+}
+.f{
+    width: 25vw;
+    height: 66.66666vh;
+    background-color: palevioletred;
+    color: white;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+}
+.box{
+    width: 75vw;
+    display: flex;
+    justify-content: start;
+    align-items: self-start;
+    flex-direction: column;
+}
+.common{
+    width: 100vw;
+    height: 66.66666vh;
+    display: flex;
+    flex-direction: row;
+}
